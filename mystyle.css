@@ -3,17 +3,21 @@ body {
 }
 
 h1 {
+	font-family: arcadeclassicregular;
   color: white;
   text-align: center;
 }
 
 @font-face {
-  font-family: ArcadeClassic;
-  src: url(ARCADECLASSIC.ttf);
+    font-family: 'arcadeclassicregular';
+    src: url('arcadeclassic.woff2') format('woff2'),
+         url('arcadeclassic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 p {
-  font-family: ArcadeClassic;
+  font-family: arcadeclassicregular;
   font-size: 20px;
   color:white;
 
