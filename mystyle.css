@@ -2,12 +2,6 @@ body {
   background-color: black;
 }
 
-h1 {
-	font-family: arcadeclassicregular;
-  color: white;
-  text-align: center;
-}
-
 @font-face {
     font-family: 'arcadeclassicregular';
     src: url('arcadeclassic.woff2') format('woff2'),
@@ -16,8 +10,14 @@ h1 {
     font-style: normal;
 }
 
+h1 {
+	font-family: 'arcadeclassicregular';
+  color: white;
+  text-align: center;
+}
+
 p {
-  font-family: arcadeclassicregular;
+  font-family: 'arcadeclassicregular';
   font-size: 20px;
   color:white;
 
