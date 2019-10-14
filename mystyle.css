@@ -1,5 +1,5 @@
 body {
-  background-color: lightblue;
+  background-color: black;
 }
 
 h1 {
@@ -7,9 +7,16 @@ h1 {
   text-align: center;
 }
 
+@font-face {
+  font-family: ArcadeClassic;
+  src: url(ARCADECLASSIC.ttf);
+}
+
 p {
-  font-family: helvetica;
+  font-family: ArcadeClassic;
   font-size: 20px;
+  color:white;
+
 }
 
 iframe:focus {
